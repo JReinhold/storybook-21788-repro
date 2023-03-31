@@ -7,26 +7,18 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"storybook": "storybook dev -p 7008",
-		"build-storybook": "storybook build"
+		"storybook": "../../node_modules/.bin/storybook dev -p 7008",
+		"build-storybook": "../../node_modules/.bin/storybook build"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@storybook/addon-essentials": "^7.0.0-rc.10",
-		"@storybook/addon-interactions": "^7.0.0-rc.10",
-		"@storybook/addon-links": "^7.0.0-rc.10",
-		"@storybook/blocks": "^7.0.0-rc.10",
-		"@storybook/react": "^7.0.0-rc.10",
-		"@storybook/react-vite": "^7.0.0-rc.10",
-		"@storybook/testing-library": "^0.0.14-next.1",
 		"@types/react": "^18.0.28",
 		"@types/react-dom": "^18.0.11",
 		"@vitejs/plugin-react": "^3.1.0",
 		"prop-types": "^15.8.1",
-		"storybook": "^7.0.0-rc.10",
 		"typescript": "^4.9.3",
 		"vite": "^4.2.0"
 	}
