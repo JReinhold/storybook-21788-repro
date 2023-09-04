@@ -10,13 +10,15 @@
 		"storybook": "storybook dev -p 7006"
 	},
 	"dependencies": {
-		"@storybook/addon-essentials": "next",
-		"@storybook/addon-interactions": "next",
-		"@storybook/addon-links": "next",
-		"@storybook/react-vite": "next",
+		"@storybook/addon-essentials": "^7.5.0-alpha.1",
+		"@storybook/addon-interactions": "^7.5.0-alpha.1",
+		"@storybook/addon-links": "^7.5.0-alpha.1",
+		"@storybook/blocks": "^7.5.0-alpha.1",
+		"@storybook/react-vite": "^7.5.0-alpha.1",
+		"@storybook/testing-library": "^0.2.1-next.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"storybook": "next"
+		"storybook": "^7.5.0-alpha.1"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.28",
