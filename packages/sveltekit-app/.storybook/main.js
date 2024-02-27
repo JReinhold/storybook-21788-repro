@@ -16,9 +16,6 @@ const config = {
 		name: "@storybook/sveltekit",
 		options: {},
 	},
-	features: {
-		storyStoreV7: false,
-	},
 	docs: {
 		autodocs: "tag",
 	},

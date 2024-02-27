@@ -16,9 +16,6 @@ const config = {
 		name: getAbsolutePath("@storybook/react-vite"),
 		options: {},
 	},
-	features: {
-		storyStoreV7: false,
-	},
 	docs: {
 		autodocs: "tag",
 	},

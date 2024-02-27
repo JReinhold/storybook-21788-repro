@@ -1,7 +1,7 @@
 import App from "./App";
 
 export default {
-	component: App,
+  component: App,
 };
 
 export const React = {};

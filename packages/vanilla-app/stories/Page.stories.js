@@ -1,12 +1,12 @@
-import { within, userEvent } from '@storybook/testing-library';
-import { createPage } from './Page';
+import { within, userEvent } from "@storybook/test";
+import { createPage } from "./Page";
 
 export default {
-  title: 'Example/Page',
+  title: "Example/Page",
   render: () => createPage(),
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/html/configure/story-layout
-    layout: 'fullscreen',
+    layout: "fullscreen",
   },
 };
 
@@ -16,7 +16,7 @@ export const LoggedOut = {};
 export const LoggedIn = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
-    const loginButton = await canvas.getByRole('button', {
+    const loginButton = await canvas.getByRole("button", {
       name: /Log in/i,
     });
     await userEvent.click(loginButton);
