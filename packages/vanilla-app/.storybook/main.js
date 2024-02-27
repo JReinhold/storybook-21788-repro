@@ -15,9 +15,6 @@ const config = {
 		name: "@storybook/html-webpack5",
 		options: {},
 	},
-	features: {
-		storyStoreV7: false,
-	},
 	docs: {
 		autodocs: "tag",
 	},

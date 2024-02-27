@@ -8,6 +8,7 @@ const config = {
 		"../../vanilla-app/common-stories/**/*.stories.@(js|jsx|ts|tsx)",
 	],
 	addons: [
+		getAbsolutePath("@storybook/addon-webpack5-compiler-swc"),
 		getAbsolutePath("@storybook/addon-links"),
 		getAbsolutePath("@storybook/addon-essentials"),
 		getAbsolutePath("@storybook/addon-interactions"),
@@ -15,9 +16,6 @@ const config = {
 	framework: {
 		name: getAbsolutePath("@storybook/react-webpack5"),
 		options: {},
-	},
-	features: {
-		storyStoreV7: false,
 	},
 	docs: {
 		autodocs: "tag",

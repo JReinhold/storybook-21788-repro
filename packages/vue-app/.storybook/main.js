@@ -16,9 +16,6 @@ const config = {
 		name: getAbsolutePath("@storybook/vue3-webpack5"),
 		options: {},
 	},
-	features: {
-		storyStoreV7: false,
-	},
 	docs: {
 		autodocs: "tag",
 	},
