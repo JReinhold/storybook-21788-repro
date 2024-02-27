@@ -13,7 +13,7 @@ const config = {
 		getAbsolutePath("@storybook/addon-interactions"),
 	],
 	framework: {
-		name: getAbsolutePath("@storybook/vue3-vite"),
+		name: getAbsolutePath("@storybook/vue3-webpack5"),
 		options: {},
 	},
 	features: {

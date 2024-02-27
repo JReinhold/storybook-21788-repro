@@ -12,7 +12,7 @@ const config = {
 		"@storybook/addon-interactions",
 	],
 	framework: {
-		name: "@storybook/html-vite",
+		name: "@storybook/html-webpack5",
 		options: {},
 	},
 	features: {
